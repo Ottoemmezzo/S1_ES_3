@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* IMPOSTAZIONI GENERALI */
+body{
+    font-family: 'Raleway', sans-serif;
+    width:500px;
+    margin: auto;
+
+}
+hr{
+    border: 2px dashed darkgray;
+    
+
+}
+
+/* HEADER */
+header{
+    background-color: #1494e9;
+    text-align: center;
+    font-size: 2.3rem;
+    line-height: 1.6;
+    color:white;
+    border-bottom: 5px solid blue;
+}
+header span{
+    background-color: white;
+    color:rgb(20, 148, 233);
+}
+header h2{
+    font-size: 1.5rem;
+    color:#292981;
+}
+/* MAIN */
+main{
+    line-height: 1.4;
+}
+section h2{
+    text-align: center;
+    font-size: 2.3rem;
+    color: #1494e9;
+    
+}
+section div{
+    width:80%;
+    margin: auto;
+    font-size: 1.4rem;
+
+}
+section div figure{
+    text-align:center;
+}
+section div figure div{
+
+    width:320px;
+    height:220px;
+    margin:auto;
+    border: 2px solid lightgray;
+}
+.profilo{
+    margin: 10px;
+    width:300px;
+    height:200px;
+    
+}
+b, h3{
+    font-weight: 600;
+}
+mark{
+    background-color: #1494e9;
+    color:white;
+    
+}
+strong{
+    color: #1494e9;
+}
+blockquote{
+    font-style: italic;
+}
+.citazione{
+    width:100%;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
+footer{
+    font-size:1.3rem;
+    line-height: 1.2;
+    color:white;
+    font-weight:400;
+    background-color: gray;
+    text-align: center;
+    border-top:5px solid blue;
+}
+kbd{
+    font-style: italic;
+    color:yellow;
+}
+small{
+    color:lightgray;
+}
